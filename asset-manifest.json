@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sarcasm/static/css/main.b2642d98.chunk.css",
+    "main.js": "/sarcasm/static/js/main.16af6e1d.chunk.js",
+    "main.js.map": "/sarcasm/static/js/main.16af6e1d.chunk.js.map",
+    "runtime-main.js": "/sarcasm/static/js/runtime-main.fbee813b.js",
+    "runtime-main.js.map": "/sarcasm/static/js/runtime-main.fbee813b.js.map",
+    "static/js/2.cc7dd9f9.chunk.js": "/sarcasm/static/js/2.cc7dd9f9.chunk.js",
+    "static/js/2.cc7dd9f9.chunk.js.map": "/sarcasm/static/js/2.cc7dd9f9.chunk.js.map",
+    "index.html": "/sarcasm/index.html",
+    "precache-manifest.daf9368df3509227e7373a56521742fd.js": "/sarcasm/precache-manifest.daf9368df3509227e7373a56521742fd.js",
+    "service-worker.js": "/sarcasm/service-worker.js",
+    "static/css/main.b2642d98.chunk.css.map": "/sarcasm/static/css/main.b2642d98.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbee813b.js",
+    "static/js/2.cc7dd9f9.chunk.js",
+    "static/css/main.b2642d98.chunk.css",
+    "static/js/main.16af6e1d.chunk.js"
+  ]
+}
