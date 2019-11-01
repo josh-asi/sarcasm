@@ -1,38 +1,39 @@
 {
-  "name": "sarcasm",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "http://josh-asi.github.io/sarcasm",
-  "dependencies": {
-    "gh-pages": "^2.1.1",
-    "node-sass": "^4.13.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all",
-      "ie >= 11"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version",
-      "ie >= 11"
-    ]
-  }
+	"name": "sarcasm",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "https://josh-asi.github.io/sarcasm/",
+	"dependencies": {
+		"copy-to-clipboard": "^3.2.0",
+		"gh-pages": "^2.1.1",
+		"node-sass": "^4.13.0",
+		"react": "^16.11.0",
+		"react-dom": "^16.11.0",
+		"react-scripts": "3.2.0"
+	},
+	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "rm -rf node_modules/gh-pages/.cache && gh-pages -b gh-pages -d build",
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all",
+			"ie >= 11"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version",
+			"ie >= 11"
+		]
+	}
 }
